@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "portfolio-website",
   "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-  },
+  "scripts": { "sass": "node-sass scss/style.scss -o css" },
   "author": "Krishna SV",
   "license": "ISC",
   "dependencies": {
