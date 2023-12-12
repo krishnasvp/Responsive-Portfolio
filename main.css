@@ -1,3 +1,5 @@
+
+
 body{
     background-color: #444;
     height: 100%;
@@ -11,3 +13,50 @@ body{
     box-sizing: border-box;
 }
 /*Heading*/
+
+h1, h2, h3{
+    margin:0;
+    font-weight: 400;
+}
+
+.lg-heading{
+    font-size: 6rem;
+}
+
+.sm-heading{
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(lighten(#444,2),0.2);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    position:fixed;
+    z-index:2;
+    width:100%;
+}
+
+.text-secondary{
+    color: #eec;
+}
+
+main{
+    padding: 4rem;
+    height:100%;
+}
+
+.icons{
+    margin-top: 1rem;
+
+    a{
+        padding: 0.4rem;
+
+        &:hover{
+            color: #eec;
+        }
+    }
+}
