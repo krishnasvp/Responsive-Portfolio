@@ -9,6 +9,10 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
   }
+
+  @mixin easeOut{
+    transition: all 1 ease-in;
+  }
   
   * {
     box-sizing: border-box;
@@ -60,7 +64,7 @@ body {
   
   .icons a:hover {
     color: yellow;
-    transition: all 1 ease-in;
+    @include easeOut
   }
   
   main .home {
