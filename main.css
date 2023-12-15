@@ -1,71 +1,69 @@
-
-
-body{
-    background-color: #444;
-    height: 100%;
-    color: #fff;
-    margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
+body {
+  background-color: #444;
+  height: 100%;
+  color: #fff;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
+
 /*Heading*/
-
-h1, h2, h3{
-    margin:0;
-    font-weight: 400;
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 400;
 }
 
-.lg-heading{
-    font-size: 6rem;
+.lg-heading {
+  font-size: 6rem;
 }
 
-.sm-heading{
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(lighten(#444,2),0.2);
+.sm-heading {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background: rgba(73, 73, 73, 0.2);
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
-header{
-    position:fixed;
-    z-index:2;
-    width:100%;
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
-.secondary{
-    color:yellow;
+.secondary {
+  color: yellow;
 }
 
-main{
-    padding: 4rem;
-    height:100%;
+main {
+  padding: 4rem;
+  height: 100%;
 }
 
-.icons{
-    margin-top: 1rem;
+.icons {
+  margin-top: 1rem;
 }
 
-.icons a{
-    padding: 0.4rem;
+.icons a {
+  padding: 0.4rem;
 }
 
-.icons a:hover{
-    color: yellow;
-    transition: all 1 ease-in;
+.icons a:hover {
+  color: yellow;
+  transition: all 1 ease-in;
 }
 
 main .home {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-main h1{
-    margin-top: 20vh;
-}
+main h1 {
+  margin-top: 20vh;
+} /*# sourceMappingURL=main.css.map */
